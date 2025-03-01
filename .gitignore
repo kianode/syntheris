@@ -1,19 +1,12 @@
-# compiled output
+# 🏗️ Compiled output
 /dist
 /node_modules
 /build
-
-# Backend (NestJS) specifika filer att ignorera
 /backend/node_modules
 /backend/dist
 /backend/build
-/backend/.env
-/backend/.env.development.local
-/backend/.env.test.local
-/backend/.env.production.local
-/backend/.env.local
 
-# Logs
+# 🛑 Logs
 logs
 *.log
 npm-debug.log*
@@ -29,61 +22,44 @@ lerna-debug.log*
 /backend/yarn-error.log*
 /backend/lerna-debug.log*
 
-# OS
+# 📦 Package manager lock files
+pnpm-lock.yaml
+
+# 🔑 Environment variables
+.env
+.env.local
+.env.*.local
+/backend/.env
+/backend/.env.local
+/backend/.env.*.local
+
+# 🛠️ ESLint & Prettier cache
+.eslintcache
+/backend/.eslintcache
+.prettiercache
+/backend/.prettiercache
+
+# 📑 ESLint & Prettier ignore files (lokala konfigurationsfiler)
+.prettierignore
+/backend/.prettierignore
+.eslintignore
+/backend/.eslintignore
+
+# 🖥️ OS-filer
 .DS_Store
 /backend/.DS_Store
 
-# Tests
+# 🧪 Tests och coverage
 /coverage
 /.nyc_output
 /backend/coverage
 /backend/.nyc_output
 
-# IDEs and editors
-/.idea
-/project
-/classpath
-/.c9
-*.launch
-/.settings
-*.sublime-workspace
-/backend/.idea
-/backend/.project
-/backend/.classpath
-/backend/.c9
-/backend/*.launch
-/backend/.settings
-/backend/*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-/backend/.vscode
-/backend/.vscode/*
-
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-/backend/.env
-/backend/.env.development.local
-/backend/.env.test.local
-/backend/.env.production.local
-/backend/.env.local
-pnpm-lock.yaml
-
-# temp directory
-.temp
-.tmp
+# 🏃 Runtime och temp-filer
+/temp
+/tmp
 /backend/.temp
 /backend/.tmp
-
-# Runtime data
 pids
 *.pid
 *.seed
@@ -93,67 +69,11 @@ pids
 /backend/*.seed
 /backend/*.pid.lock
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
+# 📊 Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 /backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# Compiled output
-/dist
-/node_modules
-/build
-
-# ESLint cache
-.eslintcache
-/backend/.eslintcache
-
-# Prettier cache
-.prettiercache
-/backend/.prettiercache
-
-# Personliga Prettier- och ESLint-konfigurationer (endast om de är lokala)
-.prettierignore
-/backend/.prettierignore
-.eslintignore
-/backend/.eslintignore
-
-# OS-filer
-.DS_Store
-/backend/.DS_Store
-
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-lerna-debug.log*
-/backend/logs
-/backend/*.log
-/backend/npm-debug.log*
-/backend/pnpm-debug.log*
-/backend/yarn-debug.log*
-/backend/yarn-error.log*
-/backend/lerna-debug.log*
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-/backend/.env
-/backend/.env.local
-/backend/.env.*.local
-
-# Runtime och temp-filer
-/temp
-/tmp
-/backend/.temp
-/backend/.tmp
-/backend/pids
-/backend/*.pid
-/backend/*.seed
-/backend/*.pid.lock
-
-# IDE/Editor-specifika filer
+# 🛠️ IDE/Editor-specifika filer
 .idea/
 .vscode/*
 !.vscode/settings.json
@@ -168,76 +88,3 @@ lerna-debug.log*
 /backend/*.launch
 /backend/.settings
 /backend/*.sublime-workspace
-
-# Compiled output
-/dist
-/node_modules
-/build
-
-# ESLint cache
-.eslintcache
-/backend/.eslintcache
-
-# Prettier cache
-.prettiercache
-/backend/.prettiercache
-
-# Personliga Prettier- och ESLint-konfigurationer (endast om de är lokala)
-.prettierignore
-/backend/.prettierignore
-.eslintignore
-/backend/.eslintignore
-
-# OS-filer
-.DS_Store
-/backend/.DS_Store
-
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-lerna-debug.log*
-/backend/logs
-/backend/*.log
-/backend/npm-debug.log*
-/backend/pnpm-debug.log*
-/backend/yarn-debug.log*
-/backend/yarn-error.log*
-/backend/lerna-debug.log*
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-/backend/.env
-/backend/.env.local
-/backend/.env.*.local
-
-# Runtime och temp-filer
-/temp
-/tmp
-/backend/.temp
-/backend/.tmp
-/backend/pids
-/backend/*.pid
-/backend/*.seed
-/backend/*.pid.lock
-
-# IDE/Editor-specifika filer
-.idea/
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-/backend/.vscode
-/backend/.idea
-/backend/.project
-/backend/.classpath
-/backend/.c9
-/backend/*.launch
-/backend/.settings
-/backend/*.sublime-workspace
-
