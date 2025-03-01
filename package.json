@@ -1,0 +1,31 @@
+{
+  "name": "syntheris",
+  "version": "1.0.0",
+  "description": "LIMS",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'backend/**/*.{ts,tsx}'",
+    "lint:fix": "eslint --fix 'backend/**/*.{ts,tsx}'"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kianode/syntheris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kianode/syntheris/issues"
+  },
+  "homepage": "https://github.com/kianode/syntheris#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0",
+    "jiti": "^2.4.2",
+    "prettier": "3.5.2",
+    "typescript-eslint": "^8.25.0"
+  }
+}

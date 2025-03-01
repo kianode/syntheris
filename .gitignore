@@ -97,6 +97,146 @@ pids
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 /backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+# Compiled output
+/dist
+/node_modules
+/build
 
+# ESLint cache
+.eslintcache
+/backend/.eslintcache
 
+# Prettier cache
+.prettiercache
+/backend/.prettiercache
 
+# Personliga Prettier- och ESLint-konfigurationer (endast om de är lokala)
+.prettierignore
+/backend/.prettierignore
+.eslintignore
+/backend/.eslintignore
+
+# OS-filer
+.DS_Store
+/backend/.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+/backend/logs
+/backend/*.log
+/backend/npm-debug.log*
+/backend/pnpm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+/backend/.env
+/backend/.env.local
+/backend/.env.*.local
+
+# Runtime och temp-filer
+/temp
+/tmp
+/backend/.temp
+/backend/.tmp
+/backend/pids
+/backend/*.pid
+/backend/*.seed
+/backend/*.pid.lock
+
+# IDE/Editor-specifika filer
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/backend/.vscode
+/backend/.idea
+/backend/.project
+/backend/.classpath
+/backend/.c9
+/backend/*.launch
+/backend/.settings
+/backend/*.sublime-workspace
+
+# Compiled output
+/dist
+/node_modules
+/build
+
+# ESLint cache
+.eslintcache
+/backend/.eslintcache
+
+# Prettier cache
+.prettiercache
+/backend/.prettiercache
+
+# Personliga Prettier- och ESLint-konfigurationer (endast om de är lokala)
+.prettierignore
+/backend/.prettierignore
+.eslintignore
+/backend/.eslintignore
+
+# OS-filer
+.DS_Store
+/backend/.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+/backend/logs
+/backend/*.log
+/backend/npm-debug.log*
+/backend/pnpm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+/backend/.env
+/backend/.env.local
+/backend/.env.*.local
+
+# Runtime och temp-filer
+/temp
+/tmp
+/backend/.temp
+/backend/.tmp
+/backend/pids
+/backend/*.pid
+/backend/*.seed
+/backend/*.pid.lock
+
+# IDE/Editor-specifika filer
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/backend/.vscode
+/backend/.idea
+/backend/.project
+/backend/.classpath
+/backend/.c9
+/backend/*.launch
+/backend/.settings
+/backend/*.sublime-workspace
