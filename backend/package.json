@@ -15,7 +15,8 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "install-postgres": "(if ! command -v psql > /dev/null; then echo '🚀 PostgreSQL saknas, installerar...'; if [ \"$(uname -s)\" = \"Darwin\" ]; then brew install postgresql && brew services start postgresql; elif [ \"$(uname -s)\" = \"Linux\" ]; then sudo apt update && sudo apt install -y postgresql && sudo systemctl enable --now postgresql; else echo '⚠️ Ditt OS stöds inte automatiskt.'; exit 1; fi; else echo '✅ PostgreSQL är redan installerat.'; fi)"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.11",
